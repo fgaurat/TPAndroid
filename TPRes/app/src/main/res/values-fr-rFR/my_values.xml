@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Bonjour</string>
+    <string name="goodDay">Passe une bonne journée</string>
+
+
+    <array name="arr">
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+    </array>
+</resources>

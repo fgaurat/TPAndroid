@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyDrawer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="planets_array">
+        <item>Mercure</item>
+        <item>Vénus</item>
+        <item>Terre</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+   </string-array>
+</resources>
