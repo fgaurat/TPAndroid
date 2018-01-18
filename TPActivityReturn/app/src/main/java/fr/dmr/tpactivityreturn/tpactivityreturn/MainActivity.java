@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import static fr.dmr.tpactivityreturn.tpactivityreturn.MyConstants.REQUEST_CODE;
+
+
 public class MainActivity extends AppCompatActivity {
 
-    private final static  int REQUEST_CODE=1;
+
 
     TextView txtResult;
 
@@ -26,12 +29,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         if(requestCode == REQUEST_CODE){
-            if (resultCode == 1){
+            if (resultCode == RESULT_OK){
                 String r = data.getStringExtra("TXT_VALUE");
                 txtResult.setText(r);
             }

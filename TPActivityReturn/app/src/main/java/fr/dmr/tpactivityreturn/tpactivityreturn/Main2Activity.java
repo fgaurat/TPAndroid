@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
+
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -25,7 +25,7 @@ public class Main2Activity extends AppCompatActivity {
 
         Intent i = new Intent();
         i.putExtra("TXT_VALUE",s);
-        setResult(RESULT_CODE,i);
+        setResult(RESULT_OK,i);
 
         finish();
     }
