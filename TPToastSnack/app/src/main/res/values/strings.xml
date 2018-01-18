@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TPToastSnack</string>
+    <string name="btn_toast">Toast !</string>
+    <string name="btn_snack">Snack !</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

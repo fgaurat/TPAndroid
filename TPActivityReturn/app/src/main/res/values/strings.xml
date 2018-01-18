@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TPActivityReturn</string>
+    <string name="btnGo">Go Activity2</string>
+    <string name="btnQuit">Quitter</string>
+</resources>

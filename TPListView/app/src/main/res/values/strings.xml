@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TPListView</string>
+
+
+    <array name="pizzas">
+        <item>Romana</item>
+        <item>Viennese</item>
+        <item>Napolitaine</item>
+        <item>Chèvre</item>
+        <item>Figatelli</item>
+    </array>
+</resources>
