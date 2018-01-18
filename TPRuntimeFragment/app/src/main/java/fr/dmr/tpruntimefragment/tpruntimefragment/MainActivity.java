@@ -25,7 +25,13 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         BlankFragment2 blankFragment2 = new BlankFragment2();
         transaction.replace(R.id.fragment_container,blankFragment2);
+        transaction.addToBackStack(null);
         transaction.commit();
+    }
+
+    public void clickDoPopBackStack(View v){
+        getSupportFragmentManager().popBackStack();
+
     }
 
 }

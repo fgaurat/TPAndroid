@@ -16,6 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
     </FrameLayout>
 
     <Button
@@ -29,4 +30,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fragment_container" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="clickDoPopBackStack"
+        android:text="Button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_editor_absoluteX="148dp" />
 </android.support.constraint.ConstraintLayout>
