@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity implements PizzaListFragment
         }
         else{
             detailFragment = new BlankFragment();
+            Bundle data = new Bundle();
+            data.putCharSequence("DESCRIPTION",item.toString());
+            detailFragment.setArguments(data);
+
             FragmentTransaction transaction =  getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.fragment_container, detailFragment);
             transaction.addToBackStack(null);

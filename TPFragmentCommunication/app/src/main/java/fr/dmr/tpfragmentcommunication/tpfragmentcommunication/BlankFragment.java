@@ -29,8 +29,13 @@ public class BlankFragment extends Fragment {
                              Bundle savedInstanceState) {
         View layout =inflater.inflate(R.layout.fragment_blank, container, false);
 
+        String description = getArguments().getString("DESCRIPTION");
+
         detail = layout.findViewById(R.id.detail);
 
+        if(description != null){
+            detail.setText(description);
+        }
         return layout;
     }
 
